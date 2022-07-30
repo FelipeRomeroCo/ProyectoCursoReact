@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import {get} from "axios"
 import Cupcake from "../../cards/Cupcake"
 
 const Cupcakes = ({peticion, title}) => {
@@ -6,9 +7,9 @@ const Cupcakes = ({peticion, title}) => {
     const [cupcakes, setCupcakes] = useState([])
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_URL_API}${peticion}`)
-            .then(response => response.json())
-            .then(data => setCupcakes(data))
+        get(`${process.env.REACT_APP_URL_API}${peticion}`)
+            // .then(response => response.json())    //Esta línea la utiliza fetch
+            .then(({data}) => setCupcakes(data))
             .catch(e => console.log(e))
     }, [peticion])
 
