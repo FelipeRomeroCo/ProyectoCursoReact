@@ -9,9 +9,9 @@ const Header = () => (
             <div className="s-grid-1 lg-cols-3 s-cross-center s-main-end header-links">
                 <nav className="main-menu" id="main-menu">
                     <ul>
+                        <li><NavLink to="/">Inicio</NavLink></li>
                         <li><NavLink to="/cupcakes">Cupcakes</NavLink></li>
                         <li><NavLink to="/aboutus">Nosotros</NavLink></li>
-                        <li><NavLink to="/">Inicio</NavLink></li>
                     </ul>
                 </nav>
                 <div className="main-menu-toggle to-l" id="main-menu-toggle"></div>
