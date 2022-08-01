@@ -1,3 +1,4 @@
+import Servicios from "../sections/Servicios"
 import Cupcakes from "./cupcakes"
 
 const Home = () => (
@@ -17,6 +18,7 @@ const Home = () => (
         </div>
     </div>
     <Cupcakes peticion= "cupcakes?sabor_like=chocolate"/>
+    <Servicios peticion= "servicios"/>
     </>
 )
 
