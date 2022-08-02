@@ -1,0 +1,65 @@
+{
+    "cupcakes": [
+        {
+            "id": 1,
+            "sabor": "Vainilla",
+            "color": "Amarillo",
+            "descripcion": "Cupcake amarillo con sabor a vainilla",
+            "precio": 10,
+            "imagen": "https://picsum.photos/200/200"
+        },
+        {
+            "id": 2,
+            "sabor": "Chocolate",
+            "color": "Café",
+            "descripcion": "Cupcake café con sabor a chocolate",
+            "precio": 15,
+            "imagen": "https://picsum.photos/200/200"
+        },
+        {
+            "id": 3,
+            "sabor": "Fresa",
+            "color": "Rojo",
+            "descripcion": "Cupcake rojo con sabor a fresa",
+            "precio": 20,
+            "imagen": "https://picsum.photos/200/200"
+        },
+        {
+            "id": 4,
+            "sabor": "Fresa4",
+            "color": "Rojo",
+            "descripcion": "Cupcake rojo con sabor a fresa",
+            "precio": 20,
+            "imagen": "https://picsum.photos/200/200"
+        },
+        {
+            "id": 5,
+            "sabor": "Fresa5",
+            "color": "Rojo",
+            "descripcion": "Cupcake rojo con sabor a fresa",
+            "precio": 20,
+            "imagen": "https://picsum.photos/200/200"
+        },
+        {
+            "id": 6,
+            "sabor": "Fresa6",
+            "color": "Rojo",
+            "descripcion": "Cupcake rojo con sabor a fresa",
+            "precio": 20,
+            "imagen": "https://picsum.photos/200/200"
+        }
+        
+    ],
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Curso de repostería",
+            "descripcion": "Curso de repostería que te enseñará a hacer cupcakes"
+        },
+        {
+            "id": 2,
+            "nombre": "Delivery a toda la ciudad",
+            "descripcion": "Pide desde donde quiera que estés"
+        }
+    ]
+}
